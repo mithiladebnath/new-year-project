@@ -83,6 +83,7 @@ body {
 
 .hero1{
   margin-left: 80px;
+  padding: 44px 344px 233px 86px;
 }
 .party-h1 {
   color: #fff;
@@ -110,7 +111,7 @@ body {
   height: 64px;
   border-radius: 8px;
   border: none;
-  background: teal;
+  background: rgba(0, 128, 128, 0.012);
   color: #fff;
   font-size: 20px;
   font-weight: 600;
@@ -120,14 +121,9 @@ body {
 
 
 .hero2 {
-  background-image: url("resources/Group_70-removebg-preview.png");
-  background-size: 245px;
+  background-image: url("resources/Group\ 70.png");
   background-repeat: no-repeat;
-  width: 319.83px;
-  height: 464.662px;
-  opacity: 92%;
-  margin-right: 53px;
-  margin-top: 76px;
+  display: flex;
 }
 
 .header-container3 {
@@ -185,6 +181,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding-top: 100px;
+  
 }
 
 
@@ -443,7 +440,7 @@ body {
 
 #btn1 {
   width: 454px;
-  height: 72px;
+  height: 42px;
   border-radius: 50px 0px 0px 50px;
   background: #fff;
   border: none;
