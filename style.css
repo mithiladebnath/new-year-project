@@ -1,15 +1,10 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-/* Google Font Style link */
 body {
   font-family: "Inter", sans-serif;
+
 }
 
-.heading-img {
+.min-section1 {
   background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
     url("resources/Banner\ Image.png");
   background-position: top center;
@@ -21,7 +16,7 @@ body {
   border-radius: 16px;
 }
 
-.header-text1 {
+.herotext1 {
   color: #fff;
   text-align: center;
   font-size: 32px;
@@ -30,7 +25,7 @@ body {
   margin-bottom: 37px;
 }
 
-.header-text2 {
+.herotext2 {
   color: #fff;
   font-size: 70px;
   font-weight: 900;
@@ -38,7 +33,7 @@ body {
   margin-top: 1px;
 }
 
-.offer-text {
+.classh2 {
   color: #f00;
   text-align: center;
   font-family: Inter;
@@ -48,7 +43,7 @@ body {
   margin-bottom: 93px;
 }
 
-.offer-description {
+.classp2 {
   color: #f00;
   text-align: center;
   font-family: Inter;
@@ -57,7 +52,7 @@ body {
   margin-bottom: 16px;
 }
 
-.offer-text2 {
+.classh4 {
   color: #070211;
   text-align: center;
   font-family: Inter;
@@ -66,15 +61,15 @@ body {
   margin-bottom: 48px;
 }
 
-.offer-img {
+.new-year {
   margin: 0px 250px;
 }
 
-/* Party Section  */
 
-.party-img {
+
+.hero-section3{
   background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
-    url("../images/Vectorrr.png");
+    url("resources/Vectorrr.png");
   background-position: top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -84,12 +79,12 @@ body {
   border-radius: 16px;
 }
 
-/* column 01 */
 
-.column1 {
+
+.hero1{
   margin-left: 80px;
 }
-.party-text {
+.party-h1 {
   color: #fff;
   font-family: Merriweather;
   font-size: 64px;
@@ -100,7 +95,7 @@ body {
   margin-bottom: 24px;
 }
 
-.party-description {
+.party-p {
   color: rgba(255, 255, 255, 0.8);
   font-family: Inter;
   font-size: 18px;
@@ -110,7 +105,7 @@ body {
   margin-bottom: 48px;
 }
 
-.btn-party {
+.party-btn {
   width: 170.106px;
   height: 64px;
   border-radius: 8px;
@@ -122,10 +117,10 @@ body {
   text-transform: uppercase;
 }
 
-/* column02 */
 
-.column2 {
-  background-image: url("../images/Group_70-removebg-preview.png");
+
+.hero2 {
+  background-image: url("resources/Group_70-removebg-preview.png");
   background-size: 245px;
   background-repeat: no-repeat;
   width: 319.83px;
@@ -141,9 +136,9 @@ body {
   justify-content: space-around;
 }
 
-/* Address Section  */
 
-.header-container4 {
+
+.hero-section4 {
   width: 1150px;
   height: 600px;
   margin: 120px 99px;
@@ -151,7 +146,7 @@ body {
   background-color: #ffeeee;
 }
 
-.address {
+.class-hero4 {
   color: #070211;
   font-family: Inter;
   font-size: 32px;
@@ -161,7 +156,7 @@ body {
   text-align: center;
 }
 
-.sstyle {
+.hero-4 {
   color: #f00;
   text-align: center;
   font-family: Inter;
@@ -171,7 +166,7 @@ body {
   text-transform: capitalize;
 }
 
-.btn-address {
+.btn-2 {
   border-radius: 8px;
   background: #f00;
   padding: 16px 32px;
@@ -184,16 +179,16 @@ body {
   border: none;
 }
 
-.address-item {
+.min-section4{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   padding-top: 100px;
 }
-/* Main Section Style Starts Hare */
 
-.main-container1 {
+
+.hero-section5 {
   width: 1150px;
   height: 600px;
   margin: 120px 80px;
@@ -204,11 +199,11 @@ body {
   justify-content: space-between;
 }
 
-.main-column1 {
+.min-section5 {
   margin-left: 20px;
 }
 
-.new-text1 {
+.minh-5 {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
@@ -216,7 +211,7 @@ body {
   margin-bottom: 16px;
 }
 
-.new-text2 {
+.min-5 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -225,7 +220,7 @@ body {
   margin-bottom: 22px;
 }
 
-.new-description {
+.minp-5{
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -233,12 +228,11 @@ body {
   width: 393px;
 }
 
-/* main-column2 */
-.main-column2 {
+.hero-section6{
   margin-right: 20px;
 }
 
-.new-text3 {
+.ptag{
   color: #f00;
   font-family: Inter;
   font-size: 48px;
@@ -246,7 +240,7 @@ body {
   margin-bottom: 16px;
 }
 
-.new-description1 {
+.ptag2 {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
@@ -255,7 +249,7 @@ body {
   margin-bottom: 43px;
 }
 
-.center-img {
+.min-section6{
   width: 364.844px;
   height: 364.844px;
   border: 15px solid #f00;
@@ -264,8 +258,8 @@ body {
   margin-right: 76px;
 }
 
-/* Div 02 */
-.main-container2 {
+
+.hero-section7 {
   width: 1150px;
   height: 933px;
   margin: 120px 80px;
@@ -299,7 +293,7 @@ body {
   font-weight: 900;
 }
 
-.holi-description {
+.holi-p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
@@ -309,20 +303,20 @@ body {
   margin-left: 180px;
 }
 
-/* Images section */
 
-.images-section1 {
+
+.images-section1{
   margin-left: 721px;
   margin-top: 64px;
 }
 
-.images-section2 {
+.images-section2{
   margin-top: -4px;
   width: 1150px;
 }
 
 .bg-img1 {
-  background-image: url("../images/Group\ 44.png");
+  background-image: url("resources/Group\ 44.png");
   background-position: right center;
   background-size: cover;
   width: 270.841px;
@@ -333,7 +327,7 @@ body {
 }
 
 .bg-img2 {
-  background-image: url("../images/Group\ 75.png");
+  background-image: url("resources/Group\ 75.png");
   background-position: left bottom;
   background-size: cover;
   width: 690px;
@@ -345,7 +339,7 @@ body {
 }
 
 /* Div 03 */
-.main-container3 {
+.gift-section1 {
   width: 1150px;
   height: 1063px;
   margin: 120px 80px;
@@ -353,7 +347,7 @@ body {
   background-color: #fff;
 }
 
-.last-text1 {
+.gif1 {
   color: #f00;
   font-family: Inter;
   font-size: 24px;
@@ -361,7 +355,7 @@ body {
   margin-bottom: 16px;
 }
 
-.last-text2 {
+.gif2 {
   color: #070211;
   font-family: Merriweather;
   font-size: 48px;
@@ -370,16 +364,14 @@ body {
   margin-bottom: 22px;
 }
 
-.last-description {
+.gifp {
   color: rgba(7, 2, 17, 0.6);
   font-family: Inter;
   font-size: 20px;
   font-weight: 400;
   width: 896px;
 }
-
-/* Gallery Section starts Hare */
-.img-size {
+.gullu{
   margin-top: 48px;
   width: 384px;
   height: 409px;
@@ -389,13 +381,13 @@ body {
   cursor: pointer;
 }
 
-.img-size:hover {
+.gullu:hover {
   box-shadow: 5px 5px 10px 5px #555;
   border-radius: 15px;
   transform: calc(1.1);
 }
 
-.img-size1 {
+.gullu1 {
   padding-top: 10px;
   width: 384px;
   height: 409px;
@@ -405,16 +397,14 @@ body {
   cursor: pointer;
 }
 
-.img-size1:hover {
+.gullu1:hover {
   box-shadow: 5px 5px 10px 5px #555;
   border-radius: 15px;
   transition: calc(1.1);
 }
 
-/* Gallery Section Ends */
 
-/* 4th Div */
-.main-container4 {
+.group61 {
   width: 1150px;
   height: 600px;
   margin: 120px 80px;
@@ -439,7 +429,7 @@ body {
   margin-top: 40px;
 }
 
-.email-description {
+.email-p {
   color: rgba(7, 2, 17, 0.6);
   text-align: center;
   font-family: Inter;
@@ -466,7 +456,7 @@ body {
   margin-left: 252px;
 }
 
-.btn2 {
+.button2 {
   width: 190px;
   height: 72px;
   border-radius: 0px 50px 50px 0px;
@@ -489,7 +479,7 @@ body {
   background: #070211;
 }
 
-.address1 {
+.phone1 {
   color: #fff;
   font-family: Inter;
   font-size: 24px;
@@ -498,7 +488,7 @@ body {
   margin-top: 120px;
 }
 
-.contact2 {
+.phone2 {
   margin-top: 120px;
 }
 
